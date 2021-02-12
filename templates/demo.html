@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jinja Template Demo</title>
+    <title>Jinja Template Demo 1</title>
 </head>
 <body>
   {{books | map(attribute = 'bookName') | join(', ') }}   {# user defined object list#}
@@ -19,7 +19,6 @@
 
     ANS :
     {{user | reverse }}
-
 
     {% if value is iterable %}
             This is Iterable...
